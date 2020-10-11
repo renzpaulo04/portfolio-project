@@ -15,7 +15,7 @@ h1 {
 }
 
 .main-img2 {
-    background-image: url(img/IMG_20191226_061638.jpg);
+    background-image: url(img2/IMG_20191226_060238.jpg);
     -webkit-bacground-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
@@ -23,13 +23,33 @@ h1 {
     height: 100%;
     filter: blur(5px);
 }
+.main-text2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 5;
+    width: 45%;
+    padding: 40px 0;
+    text-align: center;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    background-color: rgba(0,0,0,0.3);
+    color: #fff;
+    font-weight: bold;
+    border: 10px inset #fff;
+}
+p{
+    text-align: left;
+    margin-left: 1rem;
+}
 nav {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
 
-.main-text2 p {
+.main-text p {
     padding: 0 8%;
     font-family: merienda;
 }
@@ -55,4 +75,3 @@ a {
     margin-top: 15px;
     list-style: none;
 }
-
